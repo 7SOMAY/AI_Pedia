@@ -199,7 +199,7 @@ const CreatePost = () => {
               >
                 <p className="capitalize break-normal">{reply}</p>
                 {!reply && !generatingReply && (
-                <p className="text-center text-gray-400">No reply generated yet</p>)}
+                <p className="text-center text-gray-400">Speak anything to search</p>)}
                 {generatingReply && (
                 <div
                   className="inset-0 z-0 flex justify-center items-center rounded-lg h-full w-full bg-[rgba(0,0,0,0.5)]"
